@@ -1,7 +1,7 @@
 import React from 'react'
 import { Navigate, Outlet } from 'react-router-dom';
 import { useAppContext } from '../context/AppContext';
-import Loading from '../components/loading';
+import Loading from '../components/loading'; 
 
 export function AuthLayout(){
   const{user, loadingUser} = useAppContext()
